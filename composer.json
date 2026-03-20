@@ -1,0 +1,32 @@
+{
+    "name": "diy-remove-ts/diy-remove-ts",
+    "description": "Removes the ts= timestamp parameter from media URLs introduced in Shopware 6.6.",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "3D-DIY.de",
+            "homepage": "https://www.3d-diy.de"
+        }
+    ],
+    "require": {
+        "shopware/core": "~6.6"
+    },
+    "extra": {
+        "shopware-plugin-class": "Diy\\RemoveTs\\DiyRemoveTs",
+        "label": {
+            "de-DE": "ts= Parameter entfernen",
+            "en-GB": "Remove ts= Parameter"
+        },
+        "description": {
+            "de-DE": "Entfernt den nervigen ts= Parameter aus Bild-URLs im Frontend. Der Parameter wurde mit Shopware 6.6. eingeführt.",
+            "en-GB": "Removes the ts= timestamp parameter from media URLs introduced in Shopware 6.6."
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Diy\\RemoveTs\\": "src/"
+        }
+    }
+}
