@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Diy\RemoveTs\Content; 
+namespace PanPan\RemoveTs\Content; 
 
 use League\Flysystem\FilesystemOperator;
 use Shopware\Core\Content\Media\Core\Application\AbstractMediaUrlGenerator;

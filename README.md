@@ -17,8 +17,8 @@ This plugin decorates Shopware's `AbstractMediaUrlGenerator` and returns clean U
 ## Installation
 
 ```bash
-composer require diy-remove-ts/diy-remove-ts
-bin/console plugin:install --activate DiyRemoveTs
+composer require panpan-remove-ts/panpan-remove-ts
+bin/console plugin:install --activate PanPanRemoveTs
 bin/console cache:clear
 ```
 
@@ -28,4 +28,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Author
 
-[3D-DIY.de](https://www.3d-diy.de)
+[pan pan GmbH](https://panpan.digital)
