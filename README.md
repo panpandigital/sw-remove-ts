@@ -1,4 +1,4 @@
-# DiyRemoveTs — Remove ts= Parameter from Media URLs
+# Remove ts= Parameter from Media URLs
 
 A lightweight Shopware 6 plugin that removes the `ts=` timestamp query parameter from media file URLs, introduced in Shopware 6.6.
 
